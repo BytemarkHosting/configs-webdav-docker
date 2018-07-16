@@ -1,5 +1,1 @@
-Configuration files for our guide on how to [Run your own Omni Sync server with Docker, Apache and WebDAV]().
-
-To see how it all works, jump to the [Look a bit
-deeper]()
-section of our guide.
+Configuration files for our guide on how to [Run your own Omni Sync server with Docker, Apache and WebDAV](https://docs.bytemark.co.uk/article/run-your-own-omni-sync-server-with-docker-apache-and-webdav/).
