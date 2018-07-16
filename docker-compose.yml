@@ -71,12 +71,12 @@ services:
       - ./user.passwd:/user.passwd
       - vol-webdav:/var/lib/dav
     environment:
-      SERVER_NAMES: ${DAV_DOMAINS}
-      LOCATION: ${DAV_LOCATION}
+      SERVER_NAMES: ${WEBDAV_DOMAINS}
+      LOCATION: ${WEBDAV_LOCATION}
     labels:
       - "traefik.docker.network=frontend"
       - "traefik.enable=true"
-      - "traefik.frontend.rule=Host:${DAV_DOMAINS}"
+      - "traefik.frontend.rule=Host:${WEBDAV_DOMAINS}"
       - "traefik.port=80"
       - "traefik.protocol=http"
 
