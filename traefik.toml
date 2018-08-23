@@ -6,7 +6,7 @@ defaultEntryPoints = ["http", "https"]
 [entryPoints]
   [entryPoints.http]
   address = ":80"
-  # Comment out the following two lines to redirect HTTP to HTTPS.
+  # Uncomment the following two lines to redirect HTTP to HTTPS.
   #  [entryPoints.http.redirect]
   #  entryPoint = "https"
   [entryPoints.https]
